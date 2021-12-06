@@ -52,7 +52,7 @@ namespace UnitTestProject1
             var result = program.AreaOfTrapeze(a: 5, b: 10, h: 8);
 
             //Assert
-            Assert.AreEqual(200, result);
+            Assert.AreEqual(60, result);
         }
 
         [TestMethod]
